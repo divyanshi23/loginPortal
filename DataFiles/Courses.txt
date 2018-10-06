@@ -1,0 +1,6 @@
+Pearl		Four Year Integrated Classroom Program (IX-XII)
+Neev 	        Three Year Integrated Classroom Program (X-XII)
+Bull's  Eye     Two Year Integrated Classroom Program (XI-XII)
+Nucleus		One Year Integrated Classroom Program (XII Studying)
+Legend		One Year Strengthening Classroom Program (XII pass)
+DLP's		Distance Learning Programmes
