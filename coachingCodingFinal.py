@@ -10,7 +10,7 @@ import os
 
 # global variable
 FormattingLength=80                       #for uniform modifiable formatting of output
-Path=os.getcwd()+"/DataFiles/"    #for storing directopry of data files
+Path=os.getcwd()+"/DataFiles/"    #for storing directory of data files
 
 #global functions
 
@@ -154,7 +154,7 @@ def login():
         print "Enter your Password(",3-i,"Try(s) Remaining):",
         pswrd=raw_input()
         if pswrd ==m1.pswrd:
-            break # passwotd correct continue ahead normally
+            break # password correct continue ahead normally
         elif pswrd !=m1.pswrd:
            print "Password Incorrect"
            if i==2:
@@ -310,7 +310,7 @@ class Admin:
                     print "First Three Letters Must Represent The City Code.TRY AGAIN"
                     continue
                 elif not s1.batch[4:6].isdigit():
-                    print "Fifth and Sixth charcter must specify the year of entring and leaving"
+                    print "Fifth and Sixth character must specify the year of entering and leaving"
                     continue
                 elif s1.batch[4] not in ['3','4','5','6']: #No admission for 8th class, '2013' for case:joined in 9 and dropped 
                     print "Invalid Year of Admission"
@@ -386,7 +386,7 @@ class Admin:
         fw=open(Path+"Achievements.txt","a")
         s=raw_input("Enter the good news:")+'\n'
         fw.write(s)
-        print "Achievemnet added"
+        print "Achievement added"
         fw.close()
 
     #function to add marks of students of a particular batch in new test
@@ -875,7 +875,7 @@ class Student:
         try:
             while True:
                 x=pickle.load(fr)   #x stores loaded object of student class
-                if en == x.eno: #if paramater's id matches with current object id
+                if en == x.eno: #if parameter's id matches with current object id
                     fr.close()  #  stop there and return a copy of the same object 
                     return x
         except EOFError:
@@ -1089,7 +1089,7 @@ class Member:
         
         
             
-#class containig basic features available to any general user who visits the portal
+#class containing basic features available to any general user who visits the portal
 class Homepage:
     def info(self):
         ReadAll("AboutUs.txt")
